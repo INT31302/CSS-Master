@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Grid</title>
+    <style>
+      .father {
+        display: grid;
+        grid-template-columns: 300px 150px;
+        grid-template-rows: 300px 120px;
+        grid-gap: 5px;
+        grid-auto-flow: row; /* 정렬 방식의 기본 옵션은 row */
+        grid-auto-rows: 60px;
+        /* 설정 안된 Element들을 rows 경우 높이를 설정해주고 너비는 자동
+        columns 경우 너비를 설정해주고 높이는 자동
+        grid-auto-rows, grid-auto-columns 중 하나만 사용 해야함.
+        주로 rows 많이 씀 */
+      }
+      .box {
+        background-color: #f1c40f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
