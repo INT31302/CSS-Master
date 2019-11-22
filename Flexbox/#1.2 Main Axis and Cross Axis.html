@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox</title>
+    <style>
+      body {
+        display: flex;
+        /* flex-direction: row; 기본 옵션 (수평정렬)*/
+        justify-content: space-around; /* row (수평정렬)시 메인 축(Main Axis) ㅡ column(수직정렬)시  교차축(Cross Axis) ㅣ */
+        align-items: flex-end; /*row (수평정렬)시 교차 축 ㅣ column(수직정렬)시 메인 축(Main Axis) ㅡ */
+        height: 100vh;
+      }
+      .box {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        border: 1px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </body>
+</html>
