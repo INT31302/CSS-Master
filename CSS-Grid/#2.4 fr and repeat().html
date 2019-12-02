@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Grid</title>
+    <style>
+      .father {
+        display: grid;
+        grid-auto-rows: 200px;
+        grid-gap: 5px;
+        /* grid-template-columns: 2fr 1fr 2fr 1fr;
+         fr 단위는 최대한 창에 맞춰서 크기를 늘려주고 Element 별 값에 따라
+        상대적으로 크기를 조정해줌 */
+        grid-template-columns: repeat(5, 1fr);
+        /* repeat 함수는 (횟수, 크기)를 입력해주면 적은 횟수만큼 반복해서 크기를 만들어줌
+        아이템 갯수와 상관없이 공간을 만들어줌 fr와 같이 사용하면 좋음 */
+      }
+      .first {
+        background-color: #f1c40f;
+      }
+      .second {
+        background-color: #27ae60;
+      }
+      .third {
+        background-color: #3498db;
+      }
+      .fourth {
+        background-color: #d35400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="first"></div>
+      <div class="second"></div>
+      <div class="third"></div>
+      <div class="fourth"></div>
+    </div>
+  </body>
+</html>
