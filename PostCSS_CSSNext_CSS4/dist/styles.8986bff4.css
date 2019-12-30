@@ -1,0 +1,14 @@
+/*
+Matches
+ li:matches(:nth-child(even), .target) {
+  background-color: blue;
+} 
+
+Not
+
+li:not(.target) {
+  background-color: blue;
+} */
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */

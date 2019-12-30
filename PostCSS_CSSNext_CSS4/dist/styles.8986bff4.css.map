@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA;;;;;;;;;;GAUG","file":"styles.8986bff4.css","sourceRoot":"..","sourcesContent":["/*\r\nMatches\r\n li:matches(:nth-child(even), .target) {\r\n  background-color: blue;\r\n} \r\n\r\nNot\r\n\r\nli:not(.target) {\r\n  background-color: blue;\r\n} */\r\n"]}
